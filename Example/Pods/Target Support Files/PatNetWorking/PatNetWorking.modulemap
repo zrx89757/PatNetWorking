@@ -1,0 +1,6 @@
+framework module PatNetWorking {
+  umbrella header "PatNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

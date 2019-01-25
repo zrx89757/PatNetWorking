@@ -1,0 +1,6 @@
+framework module Pods_PatNetWorking_Tests {
+  umbrella header "Pods-PatNetWorking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PatNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - PatNetWorking (from `../`)
+
+EXTERNAL SOURCES:
+  PatNetWorking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PatNetWorking: 42c26cfd7d55c6f4039e4c15a23df81ffc804a50
+
+PODFILE CHECKSUM: 960d7bc91209cfabba12eb2ffba3fb2676fd283d
+
+COCOAPODS: 1.5.3
