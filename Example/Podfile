@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PatNetWorking_Tests' do
+  pod 'PatNetWorking', :path => '../'
+  
+  
+end
