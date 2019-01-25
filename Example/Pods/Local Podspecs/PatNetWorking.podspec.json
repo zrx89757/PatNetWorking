@@ -1,7 +1,7 @@
 {
   "name": "PatNetWorking",
   "version": "0.1.0",
-  "summary": "A short description of PatNetWorking.",
+  "summary": "A PatPat networking moudle base on AFNetWorking.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zrx89757/PatNetWorking",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PatNetWorking/Classes/**/*"
+  "source_files": "PatNetWorking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "3.2.1"
+    ]
+  }
 }

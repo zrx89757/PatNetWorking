@@ -1,15 +1,36 @@
 PODS:
-  - PatNetWorking (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - PatNetWorking (0.1.0):
+    - AFNetworking (= 3.2.1)
 
 DEPENDENCIES:
   - PatNetWorking (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   PatNetWorking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PatNetWorking: 42c26cfd7d55c6f4039e4c15a23df81ffc804a50
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  PatNetWorking: 77641a8992ac6fce4480cde8dbcca99d42925899
 
 PODFILE CHECKSUM: 960d7bc91209cfabba12eb2ffba3fb2676fd283d
 
